@@ -1,6 +1,14 @@
 # Ink O'Clock
 
-Alexa skill for the Literature Clock. The name on screen is **Ink O'Clock**. The words you say are **ink clock**.
+[![Alexa skill](https://img.shields.io/badge/Alexa-skill-00CAFF?logo=amazon-alexa&logoColor=white)](https://developer.amazon.com/en-US/alexa)
+[![Echo Show](https://img.shields.io/badge/Echo%20Show-APL-232F3E?logo=amazon&logoColor=white)](#settings-on-the-screen)
+[![Fire TV](https://img.shields.io/badge/Fire%20TV-supported-FC4C02?logo=amazon&logoColor=white)](#try-it)
+[![Quotes](https://img.shields.io/badge/quotes-CC%20BY--NC--SA%202.5-lightgrey)](https://creativecommons.org/licenses/by-nc-sa/2.5/)
+[![Privacy](https://img.shields.io/badge/privacy-policy-2ea44f)](PRIVACY.md)
+
+An Alexa clock that tells the time with a line from a book.
+
+The name on screen is **Ink O'Clock**. The words you say are **ink clock**.
 
 She reads the line from the book, then the title and author. The clock phrase, such as "11:38 in the morning," stays on the Echo Show page and is not spoken. The microphone closes when she finishes. On a screen, the footer still works. For the next voice command, start again with "Alexa, ask ink clock…"
 
@@ -8,7 +16,12 @@ The page turns every **5 minutes** until you pick another schedule. Quotes are J
 
 Speakers stay voice-only. Echo Show and Fire TV also draw the line on a cream page. Hold the Fire TV remote mic and say **open ink clock**. Leave off any device name.
 
-Privacy policy: [PRIVACY.md](https://github.com/markusvankempen/ink-oclock/blob/main/PRIVACY.md)
+| | |
+|---|---|
+| **Say** | `Alexa, open ink clock` |
+| **Also try** | `Alexa, ask ink clock for three fifteen` · `another line` · `use midnight` |
+| **Screen** | Echo Show & Fire TV cream page with Page / Look / Quotes / Time |
+| **Privacy** | [PRIVACY.md](PRIVACY.md) — look and schedule only; nothing you ask is stored |
 
 ## Voice commands
 
@@ -111,6 +124,10 @@ The footer is **Page**, **Look**, **Quotes**, and **Time**.
 | Time | Every 1, 5, 10, 15, 30, or 60 min. 12-hour or 24-hour. Device time, Eastern, Atlantic, Central, Mountain, Pacific, London, or UTC. |
 
 Defaults: Paper, Together, left aligned, safer quotes, time and author in the accent color, the line in ink, 12-hour, the Echo's time zone, page turn every 5 minutes.
+
+## Try it
+
+Say **Alexa, open ink clock** on an Echo, Echo Show, or Fire TV remote.
 
 ![Ink O'Clock on Echo Show](screenshot.png)
 
